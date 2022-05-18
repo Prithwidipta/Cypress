@@ -1,0 +1,337 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Odin Department Dashboard Testing",
+    "line": 1,
+    "id": "odin-department-dashboard-testing",
+    "tags": [],
+    "uri": "department.feature",
+    "elements": [
+      {
+        "id": "odin-department-dashboard-testing;department-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Department Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open Portal",
+            "result": {
+              "status": "passed",
+              "duration": 9920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter Username & Password",
+            "result": {
+              "status": "passed",
+              "duration": 2489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Validate & Login",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify Login Status",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "odin-department-dashboard-testing;select-user",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Select User",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Select User form User List",
+            "result": {
+              "status": "passed",
+              "duration": 3135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Verify User Url",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Come Back To Dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 3256000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "odin-department-dashboard-testing;creat-user",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Creat User",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Click on the Create User Button and Enter User Details",
+            "result": {
+              "status": "passed",
+              "duration": 9777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify User Created Successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Verify User Url",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Delete User",
+            "result": {
+              "status": "passed",
+              "duration": 2905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify Url after Deleting",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'https://demo23.development.odinapi.net/app/#!/groups/ent.voipxp/grp.voipxp/users' to include 'department'\n    at Context.eval (https://demo23.development.odinapi.net/__cypress/tests?p=cypress\\integration\\examples\\department.feature:301:12)\n    at Context.resolveAndRunStepDefinition (https://demo23.development.odinapi.net/__cypress/tests?p=cypress\\integration\\examples\\department.feature:10709:29)\n    at Context.eval (https://demo23.development.odinapi.net/__cypress/tests?p=cypress\\integration\\examples\\department.feature:10030:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "odin-department-dashboard-testing;go-to-user-list",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Go to User List",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Come Back To User List",
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "odin-department-dashboard-testing;auto-attendent-checking",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Auto Attendent Checking",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Navigate to attendent",
+            "result": {
+              "status": "passed",
+              "duration": 2729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Enable & Desible",
+            "result": {
+              "status": "passed",
+              "duration": 1975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Click on Auto Attendent",
+            "result": {
+              "status": "passed",
+              "duration": 3673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Edit Audio Setting",
+            "result": {
+              "status": "passed",
+              "duration": 2258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Add Auto Attendent Menu Keys",
+            "result": {
+              "status": "passed",
+              "duration": 7665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Update Auto Attendent Menu Keys",
+            "result": {
+              "status": "passed",
+              "duration": 3302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Delete Auto Attendent Menu Keys",
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "odin-department-dashboard-testing;checking-:-common-phone-list",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Checking : Common Phone List",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Navigate To Dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 1891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Navigate to Common List",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Add Common Phone",
+            "result": {
+              "status": "passed",
+              "duration": 4230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Update Common Phone",
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Delete Common Phone",
+            "result": {
+              "status": "passed",
+              "duration": 2194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Delete List",
+            "result": {
+              "status": "passed",
+              "duration": 2576000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
